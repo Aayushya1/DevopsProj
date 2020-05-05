@@ -26,6 +26,7 @@ public class AppTest
         System.out.println("Addition test case passed");
         Assert.assertEquals(expectedResult, result);;
     }
+    @Test
     public void testSub() {
         int a = 20;
         int b = 15;

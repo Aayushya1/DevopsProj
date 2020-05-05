@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a029983c-78e9-44df-9d8a-e4e17ff25519" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devops/abv/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devops/abv/App.java" afterDir="false" />
-    </list>
+    <list default="true" id="a029983c-78e9-44df-9d8a-e4e17ff25519" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
