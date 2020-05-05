@@ -8,9 +8,10 @@ pipeline {
 
     stage('Clone GIT Repository') {
             /* Cloning the Repository to our Workspace */
-
-           checkout scm
+        steps{
+           sh "checkout scm"
         }
+    }
     stage('Clean') {
         steps{
              sh 'mvn clean'
