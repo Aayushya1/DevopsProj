@@ -23,7 +23,15 @@ public class AppTest
         int b = 20;
         int expectedResult = 35;
         long result = calculator.addition(a, b);
-        System.out.println("The test case passed");
+        System.out.println("Addition test case passed");
+        Assert.assertEquals(expectedResult, result);;
+    }
+    public void testSub() {
+        int a = 20;
+        int b = 15;
+        int expectedResult = 5;
+        long result = calculator.subtraction(a, b);
+        System.out.println("Subtraction test case passed");
         Assert.assertEquals(expectedResult, result);;
     }
 }
