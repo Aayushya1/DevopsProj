@@ -8,9 +8,11 @@ pipeline {
 
     stage('Clone GIT Repository') {
             /* Cloning the Repository to our Workspace */
-        script{
-           checkout scm
-        }
+       steps{
+            script{
+            checkout scm
+            }
+       }
     }
     stage('Clean') {
         steps{
