@@ -1,11 +1,16 @@
 pipeline {
-
-  agent any
-  stages {
     environment {
         registry = "abvroot/calculator"
         registryCredential = 'docker-hub'
     }
+  agent any
+  stages {
+
+    stage('Clone GIT Repository') {
+            /* Cloning the Repository to our Workspace */
+
+           checkout scm
+        }
     stage('Clean') {
         steps{
              sh 'mvn clean'
