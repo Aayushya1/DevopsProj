@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a029983c-78e9-44df-9d8a-e4e17ff25519" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
@@ -72,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588678158226</updated>
       <workItem from="1588678161663" duration="5786000" />
-      <workItem from="1588686015779" duration="744000" />
+      <workItem from="1588686015779" duration="1505000" />
     </task>
     <servers />
   </component>
