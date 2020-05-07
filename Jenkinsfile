@@ -7,8 +7,7 @@ pipeline {
   stages {
 
     stage('Clone GIT Repository') {
-            /* Cloning the Repository to our Workspace */
-       steps{
+          steps{
             git 'https://github.com/Aayushya1/DevopsProj.git'
        }
     }
