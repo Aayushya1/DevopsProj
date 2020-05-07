@@ -24,7 +24,7 @@ public class AppTest
         int expectedResult = 35;
         long result = calculator.addition(a, b);
         System.out.println("Addition test case passed");
-        Assert.assertEquals(expectedResult, result);;
+        Assert.assertEquals(expectedResult, result);
     }
     @Test
     public void testSub() {
@@ -33,6 +33,15 @@ public class AppTest
         int expectedResult = 5;
         long result = calculator.subtraction(a, b);
         System.out.println("Subtraction test case passed");
-        Assert.assertEquals(expectedResult, result);;
+        Assert.assertEquals(expectedResult, result);
+    }
+    @Test
+    public void testMul() {
+        int a = 20;
+        int b = 20;
+        int expectedResult = 400;
+        long result = calculator.multiplication(a, b);
+        System.out.println("Multiplication test case passed");
+        Assert.assertEquals(expectedResult, result);
     }
 }

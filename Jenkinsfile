@@ -9,9 +9,7 @@ pipeline {
     stage('Clone GIT Repository') {
             /* Cloning the Repository to our Workspace */
        steps{
-            script{
-            checkout scm
-            }
+            git 'https://github.com/Aayushya1/DevopsProj.git'
        }
     }
     stage('Clean') {

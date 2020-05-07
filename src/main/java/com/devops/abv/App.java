@@ -1,5 +1,7 @@
 package com.devops.abv;
 
+import jdk.nashorn.internal.ir.IdentNode;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
@@ -18,6 +20,8 @@ public class App
         System.out.println("Output for the addition is : "+addition(n1,n2));
 
         System.out.println("Output for the Subtraction is : "+subtraction(n1,n2));
+
+        System.out.println("Output for the Multiplication is : "+multiplication(n1,n2));
     }
 
     public static Integer addition(Integer a,Integer b){
@@ -25,4 +29,6 @@ public class App
     }
 
     public static Integer subtraction(Integer a,Integer b){ return a-b;}
+
+    public static Integer multiplication(Integer a,Integer b){ return a*b;}
 }
