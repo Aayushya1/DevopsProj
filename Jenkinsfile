@@ -8,7 +8,7 @@ pipeline {
 
     stage('Clone GIT Repository') {
           steps{
-            git 'https://github.com/Aayushya1/DevopsProj.git'
+            git 'https://github.com/Aayushya1/democalculator.git'
        }
     }
     stage('Clean') {
